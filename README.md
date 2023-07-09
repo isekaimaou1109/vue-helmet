@@ -6,7 +6,7 @@ This package is used to custom ```<head>``` in each Vue's components and was ins
 - **As a Component (Local Component)**
 ```vue
 <script>
-import VueHelmet from '@toni/vue-helmet';
+import VueHelmet from 'vue-custom-head';
 export default {
   name: 'ExampleComponent',
   components: {
@@ -28,7 +28,7 @@ export default {
 - **As a Plugin (Global Environment)**
 ```vue
 /** In file main.js (version 3) */
-import { VueProvider } from '@toni/vue-helmet'
+import { VueProvider } from 'vue-custom-head'
 import { createApp } from 'vue'
 
 let app = createApp()
@@ -38,7 +38,7 @@ app.mount("#app")
 //===================================================
 
 /** In file main.js (version 2) */
-import { VueProvider } from '@toni/vue-helmet'
+import { VueProvider } from 'vue-custom-head'
 import Vue from 'vue'
 
 Vue.use(VueProvider)

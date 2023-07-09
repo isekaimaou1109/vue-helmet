@@ -1,5 +1,5 @@
 {
-  "name": "@toni/vue-helmet",
+  "name": "vue-custom-head",
   "version": "1.0.0",
   "description": "This will simply generate <head> for each components.",
   "scripts": {
