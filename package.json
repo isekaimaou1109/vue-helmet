@@ -1,0 +1,40 @@
+{
+  "name": "@toni/vue-helmet",
+  "version": "1.0.0",
+  "description": "This will simply generate <head> for each components.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue-helmet",
+    "helmet",
+    "vue-meta",
+    "vue-title",
+    "vue-head"
+  ],
+  "author": "Toni",
+  "homepage": "https://github.com/isekaimaou1109/vue-helmet#readme",
+  "bugs": {
+    "url" : "https://github.com/isekaimaou1109/vue-helmet/issues",
+    "email" : "nhat11092000@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/isekaimaou1109/vue-helmet.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^3.3.4",
+    "vue-demi": "^0.14.5"
+  },
+  "peerDependencies": {
+    "@vue/composition-api": "^1.0.0-rc.1",
+    "vue": "^2.0.0 || >=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@vue/composition-api": {
+      "optional": true
+    }
+  },
+  "devDependencies": {}
+}
